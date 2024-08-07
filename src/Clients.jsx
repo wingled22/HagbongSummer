@@ -139,8 +139,8 @@ const Clients = () => {
                                 >Update</Button> {" "}
                                 <Button onClick={() => DeleteClient(c.id)}>Delete</Button>
 
-                                <NavLink to={"/client/"+c.id}>
-                                    Goto client
+                                <NavLink to={"/client/"+c.id} className={"btn btn-secondary"} >
+                                    View Client
                                 </NavLink>
                             </li>
                         )

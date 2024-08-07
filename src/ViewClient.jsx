@@ -3,8 +3,11 @@ import { useParams } from "react-router-dom";
 const ViewClient = () => {
 
     const {clientId} = useParams();
+
     return ( 
-     <h1>this is from client with ClientId : {clientId}</h1>
+        <h1>
+            Clientid that was passed here is : <b>{clientId}</b>
+        </h1>
      );
 }
  

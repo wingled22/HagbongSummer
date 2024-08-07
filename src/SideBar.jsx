@@ -1,18 +1,16 @@
-import { NavLink } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
+import "./Sidebar.css"
 const Sidebar = () => {
-    return ( 
-
-        <div style={{background: "d9d9"}}>
-        <NavLink to={"/"} >
-            Go to home
-        </NavLink>
-        <NavLink to={"/page2"} >
-            Goto page 2
-        </NavLink>
-
+    return (
+        <div>
+            <NavLink to={"/"} className={"btn btn-success"} >
+                Home
+            </NavLink>   
+            <NavLink to={"/about-us"}>
+                About ass
+            </NavLink>
         </div>
-     );
-}
- 
+    
+    );
+};
 export default Sidebar;

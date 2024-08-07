@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+    background-color: cornsilk;
+}
+
+.number-input{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 5px coral;
+    border-radius: 10px;
+}
